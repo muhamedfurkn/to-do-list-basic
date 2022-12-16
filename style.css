@@ -1,0 +1,38 @@
+#todo-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#todo-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+li.completed input[type="checkbox"] {
+  text-decoration: line-through;
+}
